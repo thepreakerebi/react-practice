@@ -1,6 +1,8 @@
 //import {Greet} from './components/Greet'
 
-import FragmentDemo from "./components/FragmentDemo";
+// import FragmentDemo from "./components/FragmentDemo";
+import ParentComp from "./components/ParentComp";
+// import PureComp from "./components/PureComp";
 
 // import Form from "./components/Form";
 
@@ -32,7 +34,8 @@ function App() {
       {/* <NameList /> */}
       {/* <StyleSheet /> */}
       {/* <Form /> */}
-      <FragmentDemo />
+      {/* <FragmentDemo /> */}
+      <ParentComp />
     </div>
   );
 }
