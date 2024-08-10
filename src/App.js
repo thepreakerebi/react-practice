@@ -1,6 +1,8 @@
 //import {Greet} from './components/Greet'
 
-import Form from "./components/Form";
+import FragmentDemo from "./components/FragmentDemo";
+
+// import Form from "./components/Form";
 
 //import { NameList } from "./components/NameList";
 //import StyleSheet from "./components/StyleSheet";
@@ -29,7 +31,8 @@ function App() {
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
       {/* <StyleSheet /> */}
-      <Form />
+      {/* <Form /> */}
+      <FragmentDemo />
     </div>
   );
 }
