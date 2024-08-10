@@ -2,7 +2,8 @@
 
 // import FragmentDemo from "./components/FragmentDemo";
 // import ParentComp from "./components/ParentComp";
-import RefDemo from "./components/RefDemo";
+import FocusInput from "./components/FocusInput";
+// import RefDemo from "./components/RefDemo";
 // import PureComp from "./components/PureComp";
 
 // import Form from "./components/Form";
@@ -37,7 +38,8 @@ function App() {
       {/* <Form /> */}
       {/* <FragmentDemo /> */}
       {/* <ParentComp /> */}
-      <RefDemo />
+      {/* <RefDemo /> */}
+      <FocusInput />
     </div>
   );
 }
