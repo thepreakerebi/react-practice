@@ -4,7 +4,9 @@
 // import ParentComp from "./components/ParentComp";
 // import FocusInput from "./components/FocusInput";
 // import FRParentInput from "./components/FRParentInput";
-import PortalDemo from "./components/PortalDemo";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
+// import PortalDemo from "./components/PortalDemo";
 // import RefDemo from "./components/RefDemo";
 // import PureComp from "./components/PureComp";
 
@@ -43,7 +45,9 @@ function App() {
       {/* <RefDemo /> */}
       {/* <FocusInput /> */}
       {/* <FRParentInput /> */}
-      <PortalDemo />
+      {/* <PortalDemo /> */}
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
