@@ -17,6 +17,9 @@ import React, { Component } from 'react'
 import UserContext from './userContext'
 
 class ComponentE extends Component {
+
+    static contextType = UserContext;
+
   render() {
     return (
       <div>
@@ -26,7 +29,7 @@ class ComponentE extends Component {
   }
 }
 
-ComponentE.contextType = UserContext;
+// ComponentE.contextType = UserContext;
 
 export default ComponentE
 
