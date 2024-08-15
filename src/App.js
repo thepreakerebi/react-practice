@@ -1,11 +1,15 @@
 //import {Greet} from './components/Greet'
 
+import ClickCounter2 from "./components/ClickCounter2";
+import Counter2 from "./components/Counter2";
+import HoverCounter2 from "./components/HoverCounter2";
+
 // import FragmentDemo from "./components/FragmentDemo";
 // import ParentComp from "./components/ParentComp";
 // import FocusInput from "./components/FocusInput";
 // import FRParentInput from "./components/FRParentInput";
-import ClickCounter from "./components/ClickCounter";
-import HoverCounter from "./components/HoverCounter";
+// import ClickCounter from "./components/ClickCounter";
+// import HoverCounter from "./components/HoverCounter";
 // import PortalDemo from "./components/PortalDemo";
 // import RefDemo from "./components/RefDemo";
 // import PureComp from "./components/PureComp";
@@ -46,8 +50,10 @@ function App() {
       {/* <FocusInput /> */}
       {/* <FRParentInput /> */}
       {/* <PortalDemo /> */}
-      <ClickCounter />
-      <HoverCounter />
+      {/* <ClickCounter /> */}
+      {/* <HoverCounter /> */}
+      <Counter2 render={(count, incrementCount) => <ClickCounter2 count={count} incrementCount={incrementCount} />} />
+      <Counter2 render={(count, incrementCount) => <HoverCounter2 count={count} incrementCount={incrementCount} />} />
     </div>
   );
 }
