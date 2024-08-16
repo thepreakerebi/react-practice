@@ -1,6 +1,8 @@
 // import PostsList from "./components/PostsList";
 
-import HookCounterThree from "./components/HookCounterThree";
+import HookCounterFour from "./components/HookCounterFour";
+
+// import HookCounterThree from "./components/HookCounterThree";
 
 // import HookCounterTwo from "./components/HookCounterTwo";
 
@@ -19,7 +21,8 @@ function App() {
       {/* <ClassCounter /> */}
       {/* <HookCounter /> */}
       {/* <HookCounterTwo /> */}
-      <HookCounterThree />
+      {/* <HookCounterThree /> */}
+      <HookCounterFour />
     </div>
   );
 }
