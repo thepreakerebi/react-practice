@@ -1,13 +1,10 @@
-import ComponentC from "./components/ComponentC";
-import { UserProvider } from "./components/userContext";
+import PostsList from "./components/PostsList";
 
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value="James">
-        <ComponentC />
-      </UserProvider>
+      <PostsList />
     </div>
   );
 }
