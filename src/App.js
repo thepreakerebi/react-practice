@@ -1,7 +1,8 @@
 // import CounterOne from "./components/CounterOne";
 // import HookMouse from "./components/HookMouse";
 
-import MouseContainer from "./components/MouseContainer";
+import IntervalHookCounter from "./components/IntervalHookCounter";
+// import MouseContainer from "./components/MouseContainer";
 
 
 
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       {/* <CounterOne /> */}
       {/* <HookMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <IntervalHookCounter />
     </div>
   );
 }
