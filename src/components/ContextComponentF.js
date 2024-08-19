@@ -1,14 +1,10 @@
 import React from 'react'
-import { UserConsumer } from './ContextHook'
+// import { UserConsumer } from './ContextHook'
 
 const ContextComponentF = () => {
   return (
     <div>
-        <UserConsumer>
-            {
-                user => <div>{user}</div>
-            }
-        </UserConsumer>
+        Component F
     </div>
   )
 }

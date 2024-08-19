@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ContextComponentF from './ContextComponentF'
+import {UserContext, ChannelContext} from '../App';
 
 const ContextComponentE = () => {
+
+    const user = useContext(UserContext);
+    const channel = useContext(ChannelContext);
+
   return (
     <div>
+        {user} : {channel}
+
       <ContextComponentF />
     </div>
   )

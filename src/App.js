@@ -1,15 +1,18 @@
+import React from 'react';
 import ContextComponentC from "./components/ContextComponentC";
-import { UserProvider } from "./components/ContextHook";
 
-
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 
 function App() {
   return (
     <div className="App">
-      <UserProvider value={'John'}>
-        <ContextComponentC />
-      </UserProvider>
+      <UserContext.Provider value={'John'}>
+        <ChannelContext.Provider value={'Doe'}>
+          <ContextComponentC />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
