@@ -1,21 +1,15 @@
-// import CounterOne from "./components/CounterOne";
-// import HookMouse from "./components/HookMouse";
+import ContextComponentC from "./components/ContextComponentC";
+import { UserProvider } from "./components/ContextHook";
 
-import DataFetching from "./components/DataFetching";
-
-// import IntervalHookCounter from "./components/IntervalHookCounter";
-// import MouseContainer from "./components/MouseContainer";
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <CounterOne /> */}
-      {/* <HookMouse /> */}
-      {/* <MouseContainer /> */}
-      {/* <IntervalHookCounter /> */}
-      <DataFetching />
+      <UserProvider value={'John'}>
+        <ContextComponentC />
+      </UserProvider>
     </div>
   );
 }
