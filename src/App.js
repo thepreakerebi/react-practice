@@ -1,6 +1,7 @@
 // import CounterReducer from "./components/CounterReducer";
 
-import CounterReducerTwo from "./components/CounterReducerTwo";
+import CounterReducerThree from "./components/CounterReducerThree";
+// import CounterReducerTwo from "./components/CounterReducerTwo";
 
 
 
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
       {/* <CounterReducer /> */}
-      <CounterReducerTwo />
+      {/* <CounterReducerTwo /> */}
+      <CounterReducerThree />
     </div>
   );
 }
