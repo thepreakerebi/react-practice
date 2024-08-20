@@ -1,11 +1,14 @@
-import CounterReducer from "./components/CounterReducer";
+// import CounterReducer from "./components/CounterReducer";
+
+import CounterReducerTwo from "./components/CounterReducerTwo";
 
 
 
 function App() {
   return (
     <div className="App">
-      <CounterReducer />
+      {/* <CounterReducer /> */}
+      <CounterReducerTwo />
     </div>
   );
 }
