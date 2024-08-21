@@ -1,13 +1,12 @@
-// import DataFetcher from "./components/DataFetcher";
-import DataFetcherTwo from "./components/DataFetcherTwo";
+import OverallParent from "./components/OverallParent";
+
 
 
 function App() {
 
   return (
     <div className="App">
-      {/* <DataFetcher /> */}
-      <DataFetcherTwo />
+      <OverallParent />
     </div>
     
   );
