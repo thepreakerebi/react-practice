@@ -1,4 +1,4 @@
-import InputRef from "./components/InputRef";
+import RefTimer from "./components/RefTimer";
 
 
 
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <InputRef />
+      <RefTimer />
     </div>
     
   );
