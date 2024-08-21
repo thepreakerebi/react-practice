@@ -1,4 +1,4 @@
-import OverallParent from "./components/OverallParent";
+import MemoCounter from "./components/MemoCounter";
 
 
 
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <OverallParent />
+      <MemoCounter />
     </div>
     
   );
