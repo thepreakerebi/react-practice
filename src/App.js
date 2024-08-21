@@ -1,4 +1,4 @@
-import MemoCounter from "./components/MemoCounter";
+import InputRef from "./components/InputRef";
 
 
 
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <MemoCounter />
+      <InputRef />
     </div>
     
   );
