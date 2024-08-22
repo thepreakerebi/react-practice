@@ -1,4 +1,5 @@
-import RefTimer from "./components/RefTimer";
+import DocTitleOne from "./components/DocTitleOne";
+import DocTitleTwo from "./components/DocTitleTwo";
 
 
 
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <div className="App">
-      <RefTimer />
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
     
   );
