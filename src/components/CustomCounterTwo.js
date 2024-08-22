@@ -3,7 +3,7 @@ import useCounter from '../hooks/useCounter'
 
 const CustomCounterTwo = () => {
 
-    const [count, increment, decrement, reset] = useCounter();
+    const [count, increment, decrement, reset] = useCounter(10);
 
   return (
     <div>
