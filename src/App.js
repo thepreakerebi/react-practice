@@ -1,5 +1,6 @@
-import DocTitleOne from "./components/DocTitleOne";
-import DocTitleTwo from "./components/DocTitleTwo";
+import CustomCounterOne from "./components/CustomCounterOne";
+import CustomCounterTwo from "./components/CustomCounterTwo";
+
 
 
 
@@ -7,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <DocTitleOne />
-      <DocTitleTwo />
+      <CustomCounterOne />
+      <CustomCounterTwo />
     </div>
     
   );
