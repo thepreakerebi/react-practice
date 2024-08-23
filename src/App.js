@@ -1,4 +1,4 @@
-import Parent from "./components/ParentChild/Parent";
+import GrandParent from "./components/Optimization/GrandParent";
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <Parent />
+      <GrandParent />
     </div>
     
   );
