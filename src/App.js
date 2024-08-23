@@ -1,5 +1,6 @@
 
-import UseReducer from "./components/UseReducer/UseReducer";
+import ArrayUseState from "./components/ImmutableState/ArrayUseState";
+import ObjectUseState from "./components/ImmutableState/ObjectUseState";
 
 
 
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <UseReducer />
+      <ObjectUseState />
+      <ArrayUseState />
     </div>
     
   );
